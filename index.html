@@ -1,1 +1,123 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CypherCaptures Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact a {
+            background-color: #25D366; /* WhatsApp Green */
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #128C7E;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to CypherCaptures Photography</h1>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <h2>Capturing Moments, Creating Memories</h2>
+        <p>CypherCaptures specializes in professional photography that captures the beauty and essence of every moment.
+            Whether it's portraits, events, or nature photography, I provide high-quality images tailored to your needs.
+            Browse through my portfolio and feel free to contact me for bookings!</p>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="gallery">
+        <img src="image1.jpg" alt="Photo 1">
+        <img src="image2.jpg" alt="Photo 2">
+        <img src="image3.jpg" alt="Photo 3">
+        <img src="image4.jpg" alt="Photo 4">
+        <img src="image5.jpg" alt="Photo 5">
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h3>Ready to Book Your Session?</h3>
+        <p>Contact me now for inquiries, bookings, and more information.</p>
+        <a href="https://wa.me/0788488353" target="_blank">Contact Me on WhatsApp</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 CypherCaptures Photography. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
